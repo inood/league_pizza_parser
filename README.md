@@ -12,4 +12,4 @@
  ```
 
 Схема БД
-![схема](http://webdesign.ru.net/images/Heydon_min.jpg)
+![схема](https://github.com/inood/league_pizza_parser/blob/master/images/schema.png?raw=true)
