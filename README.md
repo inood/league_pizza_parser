@@ -8,6 +8,8 @@
 
 Файл настроек: _settings.py_
 
+Файл работы с БД: _db_manager.py_
+
 Запуск парсера
 ```sh
  $ python parser.py
