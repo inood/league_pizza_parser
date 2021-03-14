@@ -3,7 +3,7 @@ import json
 import requests
 
 from settings import POST_URL
-from sql_connection import sql
+from db_manager import sql
 
 
 class PizzaEncoder(json.JSONEncoder):
@@ -63,9 +63,7 @@ class Pizza:
                                     data=json_data.encode('utf-8'))
         uuid_data = json.loads(response.text)
         uuid = uuid_data['response_uuid']
-
-        print(f'{self.name} - {uuid}')
-
+        # print(f'{self.name} - {uuid}')
         sql.exec(
             "update pizza set uuid = ? where id = ?", (uuid, id_pizza)
         )

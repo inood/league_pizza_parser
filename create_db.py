@@ -1,4 +1,4 @@
-from sql_connection import *
+from db_manager import *
 
 
 if __name__ == '__main__':

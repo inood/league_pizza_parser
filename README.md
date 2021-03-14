@@ -4,12 +4,14 @@
 
 ```sh
  $ python create_db.py
- ```
+```
+
+Файл настроек: _settings.py_
 
 Запуск парсера
 ```sh
  $ python parser.py
- ```
+```
 
 ### Схема БД
 
