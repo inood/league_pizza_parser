@@ -4,7 +4,9 @@ from settings import DATABASE_FILE, SQL_SCRIPT_FILE
 
 
 class SqlClass:
-
+    '''
+    Класс работы с БД
+    '''
     def __init__(self):
         try:
             self.conn = sqlite3.connect(DATABASE_FILE)
